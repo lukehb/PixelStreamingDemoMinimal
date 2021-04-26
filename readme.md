@@ -1,4 +1,4 @@
-# Pixel Streaming Demo - Minimal (under 1GB).
+# Pixel Streaming Demo - Minimal (package under 1GB).
 A minimal version of Epic's Pixel Streaming Demo but it packages under 1GB for easier testing.
 
 Note regarding the Paragon assets:
