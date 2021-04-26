@@ -1,0 +1,13 @@
+{
+	"files.exclude": {
+		"B:/ue4_pixelstreaming/minimal-425-ps-demo/PixelStreamingDemo/.git": true,
+		"B:/ue4_pixelstreaming/minimal-425-ps-demo/PixelStreamingDemo/.vscode": true,
+		"B:/ue4_pixelstreaming/minimal-425-ps-demo/PixelStreamingDemo/Content": true,
+		"B:/ue4_pixelstreaming/minimal-425-ps-demo/PixelStreamingDemo/DerivedDataCache": true,
+		"B:/ue4_pixelstreaming/minimal-425-ps-demo/PixelStreamingDemo/Intermediate": true,
+		"B:/ue4_pixelstreaming/minimal-425-ps-demo/PixelStreamingDemo/Packaged": true,
+		"B:/ue4_pixelstreaming/minimal-425-ps-demo/PixelStreamingDemo/Saved": true,
+		"B:/ue4_pixelstreaming/minimal-425-ps-demo/PixelStreamingDemo/SignallingWebServer": true,
+		"B:/ue4_pixelstreaming/minimal-425-ps-demo/PixelStreamingDemo/WebInterface": true
+	}
+}

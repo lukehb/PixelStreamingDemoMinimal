@@ -1,0 +1,1409 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "PixelStreamingDemo Win32 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelStreamingDemo",
+				"Win32",
+				"Debug",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemo Win32 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelStreamingDemo",
+				"Win32",
+				"Debug",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"PixelStreamingDemo Win32 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemo Win32 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"PixelStreamingDemo",
+				"Win32",
+				"Debug",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemo Win32 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelStreamingDemo",
+				"Win32",
+				"DebugGame",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemo Win32 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelStreamingDemo",
+				"Win32",
+				"DebugGame",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"PixelStreamingDemo Win32 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemo Win32 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"PixelStreamingDemo",
+				"Win32",
+				"DebugGame",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemo Win32 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelStreamingDemo",
+				"Win32",
+				"Development",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemo Win32 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelStreamingDemo",
+				"Win32",
+				"Development",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"PixelStreamingDemo Win32 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemo Win32 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"PixelStreamingDemo",
+				"Win32",
+				"Development",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemo Win32 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelStreamingDemo",
+				"Win32",
+				"Shipping",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemo Win32 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelStreamingDemo",
+				"Win32",
+				"Shipping",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"PixelStreamingDemo Win32 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemo Win32 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"PixelStreamingDemo",
+				"Win32",
+				"Shipping",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemo Win32 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelStreamingDemo",
+				"Win32",
+				"Test",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemo Win32 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelStreamingDemo",
+				"Win32",
+				"Test",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"PixelStreamingDemo Win32 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemo Win32 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"PixelStreamingDemo",
+				"Win32",
+				"Test",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemo Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelStreamingDemo",
+				"Win64",
+				"Debug",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemo Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelStreamingDemo",
+				"Win64",
+				"Debug",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"PixelStreamingDemo Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemo Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"PixelStreamingDemo",
+				"Win64",
+				"Debug",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemo Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelStreamingDemo",
+				"Win64",
+				"DebugGame",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemo Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelStreamingDemo",
+				"Win64",
+				"DebugGame",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"PixelStreamingDemo Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemo Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"PixelStreamingDemo",
+				"Win64",
+				"DebugGame",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemo Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelStreamingDemo",
+				"Win64",
+				"Development",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemo Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelStreamingDemo",
+				"Win64",
+				"Development",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"PixelStreamingDemo Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemo Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"PixelStreamingDemo",
+				"Win64",
+				"Development",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemo Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelStreamingDemo",
+				"Win64",
+				"Shipping",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemo Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelStreamingDemo",
+				"Win64",
+				"Shipping",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"PixelStreamingDemo Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemo Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"PixelStreamingDemo",
+				"Win64",
+				"Shipping",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemo Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelStreamingDemo",
+				"Win64",
+				"Test",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemo Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelStreamingDemo",
+				"Win64",
+				"Test",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"PixelStreamingDemo Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemo Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"PixelStreamingDemo",
+				"Win64",
+				"Test",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemo Linux Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelStreamingDemo",
+				"Linux",
+				"Debug",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemo Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelStreamingDemo",
+				"Linux",
+				"Debug",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"PixelStreamingDemo Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemo Linux Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"PixelStreamingDemo",
+				"Linux",
+				"Debug",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemo Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelStreamingDemo",
+				"Linux",
+				"DebugGame",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemo Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelStreamingDemo",
+				"Linux",
+				"DebugGame",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"PixelStreamingDemo Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemo Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"PixelStreamingDemo",
+				"Linux",
+				"DebugGame",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemo Linux Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelStreamingDemo",
+				"Linux",
+				"Development",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemo Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelStreamingDemo",
+				"Linux",
+				"Development",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"PixelStreamingDemo Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemo Linux Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"PixelStreamingDemo",
+				"Linux",
+				"Development",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemo Linux Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelStreamingDemo",
+				"Linux",
+				"Shipping",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemo Linux Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelStreamingDemo",
+				"Linux",
+				"Shipping",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"PixelStreamingDemo Linux Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemo Linux Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"PixelStreamingDemo",
+				"Linux",
+				"Shipping",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemo Linux Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelStreamingDemo",
+				"Linux",
+				"Test",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemo Linux Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelStreamingDemo",
+				"Linux",
+				"Test",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"PixelStreamingDemo Linux Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemo Linux Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"PixelStreamingDemo",
+				"Linux",
+				"Test",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemo LinuxAArch64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelStreamingDemo",
+				"LinuxAArch64",
+				"Debug",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemo LinuxAArch64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelStreamingDemo",
+				"LinuxAArch64",
+				"Debug",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"PixelStreamingDemo LinuxAArch64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemo LinuxAArch64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"PixelStreamingDemo",
+				"LinuxAArch64",
+				"Debug",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemo LinuxAArch64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelStreamingDemo",
+				"LinuxAArch64",
+				"DebugGame",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemo LinuxAArch64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelStreamingDemo",
+				"LinuxAArch64",
+				"DebugGame",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"PixelStreamingDemo LinuxAArch64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemo LinuxAArch64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"PixelStreamingDemo",
+				"LinuxAArch64",
+				"DebugGame",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemo LinuxAArch64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelStreamingDemo",
+				"LinuxAArch64",
+				"Development",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemo LinuxAArch64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelStreamingDemo",
+				"LinuxAArch64",
+				"Development",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"PixelStreamingDemo LinuxAArch64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemo LinuxAArch64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"PixelStreamingDemo",
+				"LinuxAArch64",
+				"Development",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemo LinuxAArch64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelStreamingDemo",
+				"LinuxAArch64",
+				"Shipping",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemo LinuxAArch64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelStreamingDemo",
+				"LinuxAArch64",
+				"Shipping",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"PixelStreamingDemo LinuxAArch64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemo LinuxAArch64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"PixelStreamingDemo",
+				"LinuxAArch64",
+				"Shipping",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemo LinuxAArch64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelStreamingDemo",
+				"LinuxAArch64",
+				"Test",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemo LinuxAArch64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelStreamingDemo",
+				"LinuxAArch64",
+				"Test",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"PixelStreamingDemo LinuxAArch64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemo LinuxAArch64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"PixelStreamingDemo",
+				"LinuxAArch64",
+				"Test",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemoEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelStreamingDemoEditor",
+				"Win64",
+				"Debug",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemoEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelStreamingDemoEditor",
+				"Win64",
+				"Debug",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"PixelStreamingDemoEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemoEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"PixelStreamingDemoEditor",
+				"Win64",
+				"Debug",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemoEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelStreamingDemoEditor",
+				"Win64",
+				"DebugGame",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemoEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelStreamingDemoEditor",
+				"Win64",
+				"DebugGame",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"PixelStreamingDemoEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemoEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"PixelStreamingDemoEditor",
+				"Win64",
+				"DebugGame",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemoEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelStreamingDemoEditor",
+				"Win64",
+				"Development",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemoEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelStreamingDemoEditor",
+				"Win64",
+				"Development",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"PixelStreamingDemoEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemoEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"PixelStreamingDemoEditor",
+				"Win64",
+				"Development",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemoEditor Linux Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelStreamingDemoEditor",
+				"Linux",
+				"Debug",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemoEditor Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelStreamingDemoEditor",
+				"Linux",
+				"Debug",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"PixelStreamingDemoEditor Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemoEditor Linux Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"PixelStreamingDemoEditor",
+				"Linux",
+				"Debug",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemoEditor Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelStreamingDemoEditor",
+				"Linux",
+				"DebugGame",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemoEditor Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelStreamingDemoEditor",
+				"Linux",
+				"DebugGame",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"PixelStreamingDemoEditor Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemoEditor Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"PixelStreamingDemoEditor",
+				"Linux",
+				"DebugGame",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemoEditor Linux Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelStreamingDemoEditor",
+				"Linux",
+				"Development",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemoEditor Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelStreamingDemoEditor",
+				"Linux",
+				"Development",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"PixelStreamingDemoEditor Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		},
+		{
+			"label": "PixelStreamingDemoEditor Linux Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"PixelStreamingDemoEditor",
+				"Linux",
+				"Development",
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+			}
+		}
+	]
+}

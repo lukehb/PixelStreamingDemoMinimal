@@ -1,0 +1,128 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "PixelStreamingDemo (Debug)",
+			"request": "launch",
+			"preLaunchTask": "PixelStreamingDemo Win64 Debug Build",
+			"program": "B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\Binaries\\Win64\\UE4-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "B:\\games\\EpicStoreGames\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "B:\\games\\EpicStoreGames\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "PixelStreamingDemo (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "PixelStreamingDemo Win64 DebugGame Build",
+			"program": "B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "B:\\games\\EpicStoreGames\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "B:\\games\\EpicStoreGames\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "PixelStreamingDemo (Development)",
+			"request": "launch",
+			"preLaunchTask": "PixelStreamingDemo Win64 Development Build",
+			"program": "B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\Binaries\\Win64\\UE4.exe",
+			"args": [
+			],
+			"cwd": "B:\\games\\EpicStoreGames\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "B:\\games\\EpicStoreGames\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "PixelStreamingDemo (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "PixelStreamingDemo Win64 Shipping Build",
+			"program": "B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "B:\\games\\EpicStoreGames\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "B:\\games\\EpicStoreGames\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "PixelStreamingDemo (Test)",
+			"request": "launch",
+			"preLaunchTask": "PixelStreamingDemo Win64 Test Build",
+			"program": "B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\Binaries\\Win64\\UE4-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "B:\\games\\EpicStoreGames\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "B:\\games\\EpicStoreGames\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "PixelStreamingDemoEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "PixelStreamingDemoEditor Win64 Debug Build",
+			"program": "B:\\games\\EpicStoreGames\\UE_4.25\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject"
+			],
+			"cwd": "B:\\games\\EpicStoreGames\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "B:\\games\\EpicStoreGames\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "PixelStreamingDemoEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "PixelStreamingDemoEditor Win64 DebugGame Build",
+			"program": "B:\\games\\EpicStoreGames\\UE_4.25\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
+			"args": [
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject"
+			],
+			"cwd": "B:\\games\\EpicStoreGames\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "B:\\games\\EpicStoreGames\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "PixelStreamingDemoEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "PixelStreamingDemoEditor Win64 Development Build",
+			"program": "B:\\games\\EpicStoreGames\\UE_4.25\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject"
+			],
+			"cwd": "B:\\games\\EpicStoreGames\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "B:\\games\\EpicStoreGames\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "clr",
+			"request": "launch",
+			"program": "B:\\games\\EpicStoreGames\\UE_4.25\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"console": "externalTerminal",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"B:\\ue4_pixelstreaming\\minimal-425-ps-demo\\PixelStreamingDemo\\PixelStreamingDemo.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "B:\\games\\EpicStoreGames\\UE_4.25"
+		}
+	]
+}
